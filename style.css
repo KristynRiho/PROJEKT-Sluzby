@@ -38,7 +38,7 @@ body {
   font-weight: 500;
 }
 
-/************* HEADER ***************/
+/********** HEADER ***************/
 
 .heading--large {
   font-size: 28px;
@@ -109,4 +109,41 @@ body {
   margin-top: 30px;
 }
 
-/* ***** TABLET ************************ */
+/* ***** TABLET ******************************************* */
+@media screen and (min-width: 640px) {
+  /* ****** společné ****** */
+  .container {
+    max-width: 750px;
+  }
+
+  .text {
+    width: 550px;
+    margin: 0 auto;
+  }
+  /********** HEADER ************/
+
+  .intro__btns {
+    display: flex;
+    justify-content: center;
+  }
+
+  .intro-btn--blue {
+    margin-right: 20px;
+  }
+
+  /* ********* MAIN **************/
+  .office__box,
+  .delegate__box {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .box {
+    flex-direction: column;
+    flex: 0 0 calc((100% - 40px) / 3);
+  }
+
+  .box img {
+    margin: 30px 0 20px 0;
+  }
+}
