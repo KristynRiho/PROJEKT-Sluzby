@@ -121,6 +121,10 @@ body {
     margin: 0 auto;
   }
   /********** HEADER ************/
+  .intro__img {
+    width: 400px;
+    margin: 0 auto;
+  }
 
   .intro__btns {
     display: flex;
