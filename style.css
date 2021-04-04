@@ -155,9 +155,15 @@ body {
 /* ***** PC ******************************************* */
 @media screen and (min-width: 1100px) {
   /* ****** společné ****** */
-  .container {
+  .wrapper {
     max-width: 1200px;
-    padding: 60px 80px;
+    background-color: var(--white-bcgrd);
+    margin: 0 auto;
+  }
+
+  .container {
+    max-width: 1040px;
+    padding: 60px 0;
   }
 
   /********** HEADER ************/
